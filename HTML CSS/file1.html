@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>K-Contents</title>
+	<link rel="stylesheet" href="file1.css">
+	<script>
+		function query() {
+			var ret = confirm("해당 기사로 이동하시겠습니까?");
+			return ret;
+		}
+
+        function noAction(e) {
+			e.preventDefault(); 
+		}
+		function change() {
+			var par1 = document.getElementById("parg1");
+			var img1=document.getElementById("img1");
+			var tit1=document.getElementById("title");
+			var par2 = document.getElementById("parg2");
+			var img2=document.getElementById("img2");
+			var tit2=document.getElementById("title2");
+			var par3 = document.getElementById("parg3");
+			var img3=document.getElementById("img3");
+			var tit3=document.getElementById("title3");
+			tit1.innerText="비중"
+            par1.innerText="위 사진은 2019년 우리나라 기업 수출 매출을 계산한 자료이다. 당시 우리나라 국내 콘텐츠 기업의 수출액은 101억8902달러를 기록해 사상 최초로 100억달러를 돌파했다. 여러 가지 변수를 계산하더라도 우리나라 수출 효자 상품인 반도체와 비교했을 때 크게 밀리지 않는 수준이다. ";
+			img1.src="html/image_readtop_2021_603717_16243592224690554.jpg"
+			tit2.innerText="소비하는 한국 컨텐츠 종류별 증감"
+			par2.innerText="이 사진은 아시아∙오세아니아, 미주, 유럽, 중동, 아프리카에서 15~59세 남녀 현지인 중 한국 문화 콘텐츠 이용 경험이 있는 자들을 대상으로 코로나 이전과 비교했을 때 한국 컨텐츠별로 소비 횟수의 증감을 나타낸 사진이다. 보면 모든 한국 컨텐츠에서 이용량이 최소 비슷하거나 늘어난 걸로 확인된다. 코로나 특수를 맞아 확실히 세계적으로 이용량이 증가한 모습을 확인할 수 있다."
+            img2.src="html/20210226_171422007_54190.png"
+			tit3.innerText="나라별 컨텐츠 사용 비율"
+			par3.innerText="우리나라와 가까운 네 나라의 한국 컨텐츠 사용 지표이다. 우리가 흔히 아는 영화, 드라마, k-pop외에도 예능이나 만화, 도서 등 많은 것들이 다른 나라로 수출되고 있다. 순위를 보면 영화, 드라마, 음악이 여러 나라에 걸쳐 가장 많이 사람들에게 노출된다."
+            img3.src="html/IMG_0075.jpg"
+		}
+		function change1() {
+			var par1 = document.getElementById("parg1");
+			var img1=document.getElementById("img1");
+			var tit1=document.getElementById("title");
+			var par2 = document.getElementById("parg2");
+			var img2=document.getElementById("img2");
+			var tit2=document.getElementById("title2");
+			var par3 = document.getElementById("parg3");
+			var img3=document.getElementById("img3");
+			var tit3=document.getElementById("title3");
+			tit1.innerText="오징어 게임"
+            par1.innerText="456명의 사람들이 456억의 상금이 걸린 미스터리한 데스 게임에 초대되면서 벌어지는 이야기를 그린 서바이벌, 데스 게임 장르의 드라마이며 제목은 골목 놀이인 오징어에서 따 왔다.";
+			img1.src="html/오징어게임.jpg"
+			tit2.innerText="흥행 성적"
+			par2.innerText="오징어게이믄 비영어권 국가에서 10주 연속 1위를 달성했으며 넷플릭스가 정식으로 서비스 중인 모든 나라에서 1위를 달성한 최초의 드라마이다.그리고 021년 10월 13일, 넷플릭스에서 공식적으로 오징어 게임이 역대 가장 많은 시청 가구수를 기록한 콘텐츠라고 발표했다."
+            img2.src="html/오징어게임1.jpg"
+			tit3.innerText="수상 기록"
+			par3.innerText="1.새틀라이트상 TV 드라마 시리즈 작품상\n2.백상예술대상 TV부문 대상\n3.골든글러브 남우주연상 이정재 수상\n4.프라임타임 에미상 남우주연상 이정재 수상\n5.AFI Special Award 수상\n6.미국 배우 조합상 드라마 부문 여자 연기상 정호연 수상"
+            img3.src="html/이정재 수상.jpg"
+        }
+		function change2() {
+			var par1 = document.getElementById("parg1");
+			var img1=document.getElementById("img1");
+			var tit1=document.getElementById("title");
+			var par2 = document.getElementById("parg2");
+			var img2=document.getElementById("img2");
+			var tit2=document.getElementById("title2");
+			var par3 = document.getElementById("parg3");
+			var img3=document.getElementById("img3");
+			var tit3=document.getElementById("title3");
+			tit1.innerText="기생충"
+            par1.innerText="2019년에 개봉한 봉준호 감독의 7번째 장편 영화. 상류층과 하류층, 두 가족의 만남을 다룬 대한민국의 블랙 코미디 가족 드라마 영화이다.";
+			img1.src="html/기생충.jpg"
+			tit2.innerText="평가"
+			par2.innerText="봉준호 감독이 만든 100억이 넘는 제작비가 들어간 작품이다. 미장센과 메시지에 공을 상당히 많이 들였지만 그렇다고 해서 그 전달 방식이 크게 난해하지 않은 터라 영화에 대해 잘 모르는 관객들도 이해하기 어렵지 않다. 그리고 블랙 코미디, 빠르게 흘러가는 스토리, 반전, 복선을 회수하며 깔끔하게 끝나는 결말 등 대중이 좋아할 만한 요소들이 많고, 이러한 요소들의 완성도 역시 높아 좋은 평가를 받는다."
+            img2.src="html/기생충 평가.jpg"
+			tit3.innerText="수상 기록"
+			par3.innerText="1.칸 영화제 황금종려상 수상\n2.골든글로브상 외국어영화상 수상\n3.영국 아카데미 시상식 각본상, 비영어영화상 수상\n4.청룡영화상 최우수작품상, 감독상, 미술상, 여우주연상, 여우조연상\n5.백상예술대상 영화부문 대상\n6.대종상 최우수작품상"
+            img3.src="html/기생충 수상.jpg"
+        }
+		function change3() {
+			var par1 = document.getElementById("parg1");
+			var img1=document.getElementById("img1");
+			var tit1=document.getElementById("title");
+			var par2 = document.getElementById("parg2");
+			var img2=document.getElementById("img2");
+			var tit2=document.getElementById("title2");
+			var par3 = document.getElementById("parg3");
+			var img3=document.getElementById("img3");
+			var tit3=document.getElementById("title3");
+			tit1.innerText="BTS"
+            par1.innerText="2013년 6월 13일에 데뷔한 대한민국의 7인조 보이그룹이며 현재 세계적으로 가장 유명한 가수 중 한 팀이다.";
+			img1.src="html/bts.jpg"
+			tit2.innerText="BTS 신드롬"
+			par2.innerText="2017년부터 유튜브나 빌보드, 오리콘 등 해외 인기 관련 기록들에서 최고의 결과를 내고 있다. 2019에는 서구권에서 먼저 '21세기 비틀즈'라는 찬사가 쏟아졌으며 2020년에 미국 시사주간지 타임에서 '올해의 연예인'에 선정됐다.  2021년 해외 그룹으로는 최초이자 해외 가수로는 마이클 잭슨 이후 37년 만에 오리콘 앨범 판매량 연간 1위를 차지했다. 국제음반산업협회에서 '전 세계 음악 시장 매출 1위가 방탄소년단'이라는 보고서를 발표했으며 2021년 기준 현대경제연구원 보고서에서는 BTS가 매년 한국에 50억 달러(약 5조 7천억원)의 경제적 이익을 가져다 주고 있다고 밝혔다."
+            img2.src="html/bts1.jpg"
+			tit3.innerText="수상 기록"
+			par3.innerText="1.아메리칸 뮤직 어워드 올해의 아티스트상\n2.골든디스크 디지털 음원 본상\n3.제34회 일본 골든디스크 대상\n4.제27회 빌보드 뮤직 어워드 Top Social Artist\n5.제48회 American Music Awards 수상\n6.아시아 아티스트 어워즈 수상"
+            img3.src="html/bts2.jpg"
+        }
+	</script>
+</head>
+<body>
+	<header><span style="font-size:50px; color:blueviolet;font-family: fantasy;">K-Contents</span></header>
+	<nav>
+		<div>
+			<button id="but" type="button" onclick="change()">한류 상황</button>
+			<button id="but" type="button" onclick="change1()">오징어 게임</button>
+			<button id="but" type="button" onclick="change2()">기생충</button>
+			<button id="but" type="button" onclick="change3()">BTS</button>
+		</div>
+	</nav>
+	<section>
+		<div id="box1">
+			<div id="smallBox1">
+			<h1 id="title">비중</h1>
+			<img src="html/image_readtop_2021_603717_16243592224690554.jpg" id="img1">
+			<p id="parg1">위 사진은 2019년 우리나라 기업 수출 매출을 계산한 자료이다. 당시 우리나라 국내 콘텐츠 기업의 수출액은
+				101억8902달러를 기록해 사상 최초로 100억달러를 돌파했다. 여러 가지 변수를 계산하더라도 우리나라 수출 효자 상품인 반도체와 
+				비교했을 때 크게 밀리지 않는 수준이다. 
+				<a href="https://www.mk.co.kr/news/culture/9922605" onclick="return query()"><span style="color:purple;">출처</span></a></p>
+			</div>
+		</div>
+		<div id="box2">
+			<div id="boxa">
+				<h2 id="title2" style="margin:0;">소비하는 한국 컨텐츠 종류별 증감</h2>
+				<img style="width: 400px; height: 230px; float: left;" src="html/20210226_171422007_54190.png" id="img2">
+				<div id="exp1">
+					<p id="parg2">이 사진은 아시아∙오세아니아, 미주, 유럽, 중동, 아프리카에서 15~59세 남녀 현지인 중 한국 문화 콘텐츠 이용 경험이 있는 자들을 대상으로 코로나 이전과 비교했을 때 한국 컨텐츠별로 소비 횟수의 증감을 나타낸 사진이다. 보면 모든 한국 컨텐츠에서 이용량이 최소 비슷하거나 늘어난 걸로 확인된다. 코로나 특수를 맞아 확실히 세계적으로 이용량이 증가한 모습을 확인할 수 있다.
+					<a href="https://kofice.or.kr/c30correspondent/c30_correspondent_02_view.asp?seq=19596" onclick="return query()"><span style="color:purple;">출처</span></a></p>
+				</div>
+			</div>
+			<div id="boxb">
+				<h2 id="title3" style="margin-bottom: 0px;"> 나라별 컨텐츠 사용 비율</h2>
+				<img style="width: 400px; height: 230px; float: left;" src="html/IMG_0075.jpg" id="img3">
+				<div id="exp2">
+					<p id="parg3">우리나라와 가까운 네 나라의 한국 컨텐츠 사용 지표이다. 우리가 흔히 아는 영화, 드라마, k-pop외에도 예능이나 만화, 도서 등 많은 것들이 다른 나라로 수출되고 있다. 순위를 보면 영화, 드라마, 음악이 여러 나라에 걸쳐 가장 많이 사람들에게 노출된다.
+						<a href="https://m.blog.naver.com/nickykim156423/221549092555" onclick="return query()"><span style="color:purple;">출처</span></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer></footer>
+</body>
+</html>
